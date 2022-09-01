@@ -1,0 +1,151 @@
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .icono img{
+    width: 120px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.container_cover .text{
+max-width: 400px;
+}
+.cover{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_cover .text h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.container_cover .text p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.container_cover .svg img{
+    width: 600px;
+}
+.container_cover .text input{
+    padding: 18px 40px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.info{
+    font-size: 20px;
+    margin-top: 100px;
+    max-width: 850px;
+    position: relative;
+    left: 14%;
+    top: 20%;
+}
+.ademas h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.contenedor{
+margin-top: 100px;
+display: flex;
+justify-content:center;
+flex-wrap:wrap;
+gap: 16px;
+}
+.tarjeta{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width: auto;
+border: 1px solid lightgray;
+box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+border-radius:15px;
+font-family: sans-serif;
+}
+.titulo{
+font-size: 24px;
+padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+padding: 10px;
+flex: 1 1 100%;
+}
+.pie{
+background: #6699ff;
+border-radius:0 0 15px 15px;
+padding: 10px;
+text-align:center; }
+.pie a{
+text-decoration: none;
+color: white;
+}
+.pie a:after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+content: ""
+}
+.contacto h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+}
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px
+}
+.box-footer .logo img{
+    width: 180px;
+}
+.box-footer h2{
+margin-bottom: 30px;
+color: #343434;
+font-weight: 700;
+}
+.box-footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+.box-footer .redes img{
+    width: 20px;
+}
+.box-derechos{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
